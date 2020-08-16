@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {Router , Route } from 'react-router';
-
 //import Painel from './Components/Painel'
 import PlacaContainer from './Components/Painel/Painel'
 import DraggableDialog from './Components/Dialog/Dialog'
@@ -26,13 +24,7 @@ import DraggableDialog from './Components/Dialog/Dialog'
 function App() {
   return (
     <div className="App">
-        <Route>
-
-          <Route path="/" />
-
-        </Route>
-
-        
+        <DraggableDialog/>
     </div>
   );
 }
